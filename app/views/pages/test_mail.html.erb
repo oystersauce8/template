@@ -1,2 +1,7 @@
-<h1>Pages#test_mail</h1>
-<p>Find me in app/views/pages/test_mail.html.erb</p>
+<%=
+ ActionMailer::Base.mail(
+  from: "postmaster@mg.sam-we.com",
+  to: "template-a32b218@mailinator.com",
+  subject: "test",
+  body: "test").deliver_now!.errors.inspect
+%>
