@@ -50,3 +50,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise'
 gem "pundit"
 gem "font-awesome-rails"
+gem 'simplecov', require: false, group: :test
