@@ -1,4 +1,6 @@
 class PagesController < ApplicationController
+  before_action :authenticate_user!, only: [ :test_authentication_2, :test_authentication_2 ]
+
   include Watermelon::Example
   def test_bootstrap
   end
