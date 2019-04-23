@@ -1,2 +1,30 @@
-<h1>Pages#test_api_1</h1>
-<p>Find me in app/views/pages/test_api_1.html.erb</p>
+<script>
+
+$( document ).on('turbolinks:load', function() {
+
+  $.ajax({
+          url: "/api/vi/authors",
+          type: 'GET',
+          dataType: 'json', // added data type
+          success: function(res) {
+              $(".result").html(res);
+          }
+  });
+
+);
+
+</script>
+
+
+
+<div>
+  current_user.id returned <%= current_user.id rescue "rescued"  %>
+</div>
+<br>
+<div>
+  Result:
+</div>
+<br>
+<div class="result">
+none
+</div>
