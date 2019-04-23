@@ -18,3 +18,11 @@ require("channels")
 
 import '../stylesheets/application'
 import './bootstrap_custom.js'
+
+import React from 'react';
+import { render } from 'react-dom';
+import MyEditor from '../components/MyEditor';
+document.addEventListener('DOMContentLoaded', () => {
+  const container = document.getElementById("container-c56e9b2")
+  render(<MyEditor/>, container);
+})
