@@ -52,3 +52,4 @@ gem 'devise'
 gem "pundit"
 gem "font-awesome-rails"
 gem 'grape'
+gem 'simplecov', require: false, group: :test
