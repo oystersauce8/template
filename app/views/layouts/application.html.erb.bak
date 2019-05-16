@@ -11,6 +11,7 @@
   </head>
 
   <body>
+    <%= render '/gtm_lower' %>
     <%= yield %>
   </body>
 </html>
