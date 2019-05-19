@@ -1,24 +1,28 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Genesis (How this application was born)
 
-Things you may want to cover:
+```
+git clone https://github.com/oystersauce8/template-a32b218.git
+mv template-a32b218 cool-app-name
+cd cool-app-name
+perl -pi.bak -e 's/template-a32b218/cool-app-name/' .env.dev
+```
 
-* Ruby version
+## How to start local development instance
+```
+yarn install
+bundle install
+bundle exec rails db:migrate
+heroku local -f Procfile.dev -e .env.dev
+```
 
-* System dependencies
+## How not to get out of date with upstream rails edge
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+# https://help.github.com/en/articles/syncing-a-fork
+git remote remove upstream
+git remote add upstream https://github.com/oystersauce8/template-a32b218.git
+git fetch upstream
+git rebase upstream master # Or git merge upstream/master
+```
