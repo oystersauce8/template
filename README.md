@@ -13,7 +13,7 @@ perl -pi.bak -e 's/template-a32b218/cool-app-name/' .env.dev
 ```
 yarn install
 bundle install
-bundle exec rails db:migrate
+heroku local:run --env .env.dev rails db:setup
 heroku local -f Procfile.dev -e .env.dev
 ```
 
