@@ -94,7 +94,10 @@ Rails.application.configure do
     logger           = ActiveSupport::Logger.new(STDOUT)
     logger.formatter = config.log_formatter
     config.logger    = ActiveSupport::TaggedLogging.new(logger)
-  end
+  
+
+  config.x.domain = "https://#{ENV["MY_APP_NAME"]}.herokuapp.com"
+end
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
@@ -119,4 +122,7 @@ Rails.application.configure do
   # config.active_record.database_selector = { delay: 2.seconds }
   # config.active_record.database_resolver = ActiveRecord::Middleware::DatabaseSelector::Resolver
   # config.active_record.database_resolver_context = ActiveRecord::Middleware::DatabaseSelector::Resolver::Session
+
+
+  config.x.domain = "https://#{ENV["MY_APP_NAME"]}.herokuapp.com"
 end

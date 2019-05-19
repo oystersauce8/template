@@ -29,6 +29,7 @@ Rails.application.configure do
   
 
   config.hosts << "localhost.administrator"
+  config.x.domain = "https://localhost.administrator:5000"
 end
 
   # Store uploaded files on the local file system (see config/storage.yml for options).
@@ -65,4 +66,5 @@ end
 
 
   config.hosts << "localhost.administrator"
+  config.x.domain = "https://localhost.administrator:5000"
 end
