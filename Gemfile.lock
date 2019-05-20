@@ -1,24 +1,7 @@
 GIT
-  remote: https://github.com/rails/web-console.git
-  revision: ca62054d897912d82fcd6f03f0b65a7e0e6f50c0
-  specs:
-    web-console (4.0.0)
-      actionview (>= 6.0.0.a)
-      activemodel (>= 6.0.0.a)
-      bindex (>= 0.4.0)
-      railties (>= 6.0.0.a)
-
-GIT
-  remote: https://github.com/rails/webpacker.git
-  revision: 40987fed31a59dee9501f2832a9ee09603739175
-  specs:
-    webpacker (4.0.2)
-      activesupport (>= 4.2)
-      rack-proxy (>= 0.6.1)
-      railties (>= 4.2)
-
-PATH
-  remote: /home/travis/.rvm/gems/ruby-2.6.2/bundler/gems/rails-a0c39ff820f0
+  remote: https://github.com/rails/rails.git
+  revision: a0c39ff820f0a55fae24fcd7958ed34a00b35114
+  branch: 6-0-stable
   specs:
     actioncable (6.0.0.rc1)
       actionpack (= 6.0.0.rc1)
@@ -96,6 +79,25 @@ PATH
       method_source
       rake (>= 0.8.7)
       thor (>= 0.20.3, < 2.0)
+
+GIT
+  remote: https://github.com/rails/web-console.git
+  revision: ca62054d897912d82fcd6f03f0b65a7e0e6f50c0
+  specs:
+    web-console (4.0.0)
+      actionview (>= 6.0.0.a)
+      activemodel (>= 6.0.0.a)
+      bindex (>= 0.4.0)
+      railties (>= 6.0.0.a)
+
+GIT
+  remote: https://github.com/rails/webpacker.git
+  revision: 40987fed31a59dee9501f2832a9ee09603739175
+  specs:
+    webpacker (4.0.2)
+      activesupport (>= 4.2)
+      rack-proxy (>= 0.6.1)
+      railties (>= 4.2)
 
 GEM
   remote: https://rubygems.org/
