@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: 8988b42ecede104434d546b05214406f08cf70f8
+  revision: a0c39ff820f0a55fae24fcd7958ed34a00b35114
   branch: 6-0-stable
   specs:
     actioncable (6.0.0.rc1)
@@ -113,14 +113,13 @@ GEM
     bindex (0.7.0)
     builder (3.2.3)
     byebug (11.0.1)
-    capybara (3.20.1)
+    capybara (3.20.2)
       addressable
       mini_mime (>= 0.1.3)
       nokogiri (~> 1.8)
       rack (>= 1.6.0)
       rack-test (>= 0.6.3)
       regexp_parser (~> 1.2)
-      uglifier
       xpath (~> 3.2)
     childprocess (1.0.1)
       rake (< 13.0)
@@ -139,7 +138,6 @@ GEM
     docile (1.3.1)
     equalizer (0.0.11)
     erubi (1.8.0)
-    execjs (2.7.0)
     ffi (1.11.0)
     font-awesome-rails (4.7.0.5)
       railties (>= 3.2, < 6.1)
@@ -255,8 +253,6 @@ GEM
     turbolinks-source (5.2.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-    uglifier (4.1.20)
-      execjs (>= 0.3.0, < 3)
     unicode-display_width (1.6.0)
     virtus (1.0.5)
       axiom-types (~> 0.1)
