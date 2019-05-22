@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: a0c39ff820f0a55fae24fcd7958ed34a00b35114
+  revision: fd8261a15d8622206d973fa27447852999a7cd1c
   branch: 6-0-stable
   specs:
     actioncable (6.0.0.rc1)
@@ -92,7 +92,7 @@ GIT
 
 GIT
   remote: https://github.com/rails/webpacker.git
-  revision: 40987fed31a59dee9501f2832a9ee09603739175
+  revision: 208da395b7eaaf19b787433d7e2b228dc7636f48
   specs:
     webpacker (4.0.2)
       activesupport (>= 4.2)
