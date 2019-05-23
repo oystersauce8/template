@@ -1,2 +1,1 @@
-web: bundle exec rails server -b "ssl://localhost.administrator:$PORT?key=./config/ssl/localhost.administrator.key&cert=./config/ssl/localhost.administrator.crt"
-
+web: bundle exec rails server -b "ssl://0.0.0.0:$PORT?cert=./config/certs/localhost.crt&key=./config/certs/localhost.key&verify_mode=none"

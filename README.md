@@ -9,7 +9,7 @@ cd cool-app-name
 perl -pi.bak -e 's/template-a32b218/cool-app-name/' .env.dev
 ```
 
-## How to start local development instance
+## How to start local development instance ( https://localhost:3000/ )
 ```
 yarn install
 bundle install
