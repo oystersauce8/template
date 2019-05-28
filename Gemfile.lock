@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: 728e8ed92c959f7686f8614835d1366667e52d9a
+  revision: b064a781c18ff70ab255707c9ecf4bd33474cd61
   branch: 6-0-stable
   specs:
     actioncable (6.0.0.rc1)
@@ -92,7 +92,7 @@ GIT
 
 GIT
   remote: https://github.com/rails/webpacker.git
-  revision: 208da395b7eaaf19b787433d7e2b228dc7636f48
+  revision: bf92ace44a28f6dbcad55deb9f85708bb9827bcf
   specs:
     webpacker (4.0.2)
       activesupport (>= 4.2)
@@ -216,7 +216,7 @@ GEM
       rainbow (>= 2.2.2, < 4.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 1.7)
-    ruby-progressbar (1.10.0)
+    ruby-progressbar (1.10.1)
     ruby_dep (1.5.0)
     rubyzip (1.2.3)
     sass (3.7.4)
