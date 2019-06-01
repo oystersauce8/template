@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: 57da4ff4cb697ac3bd5e40e2965b4e59a18ecc97
+  revision: f355f920ddcd48670cb58f4d1e6782055a88110b
   branch: 6-0-stable
   specs:
     actioncable (6.0.0.rc1)
@@ -109,7 +109,7 @@ GEM
       descendants_tracker (~> 0.0.4)
       ice_nine (~> 0.11.0)
       thread_safe (~> 0.3, >= 0.3.1)
-    bcrypt (3.1.12)
+    bcrypt (3.1.13)
     bindex (0.7.0)
     builder (3.2.3)
     byebug (11.0.1)
