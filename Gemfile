@@ -51,3 +51,4 @@ gem 'rubocop', require: false
 gem 'devise'
 gem "pundit"
 gem "font-awesome-rails"
+gem 'grape'
