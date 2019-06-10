@@ -92,7 +92,7 @@ GIT
 
 GIT
   remote: https://github.com/rails/webpacker.git
-  revision: 891b50d61eadfc41422a8437cbcbdf199c7f13fc
+  revision: 478790319d23d98dd75a441c1823336be54dddfb
   specs:
     webpacker (4.0.7)
       activesupport (>= 4.2)
@@ -265,9 +265,9 @@ GEM
       nokogiri (~> 1.6)
       rubyzip (~> 1.0)
       selenium-webdriver (~> 3.0)
-    websocket-driver (0.7.0)
+    websocket-driver (0.7.1)
       websocket-extensions (>= 0.1.0)
-    websocket-extensions (0.1.3)
+    websocket-extensions (0.1.4)
     xpath (3.2.0)
       nokogiri (~> 1.8)
     zeitwerk (2.1.6)
