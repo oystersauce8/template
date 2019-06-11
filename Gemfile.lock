@@ -92,7 +92,7 @@ GIT
 
 GIT
   remote: https://github.com/rails/webpacker.git
-  revision: 478790319d23d98dd75a441c1823336be54dddfb
+  revision: 53129ef636d5d5f82479555d46d3c2242596efc2
   specs:
     webpacker (4.0.7)
       activesupport (>= 4.2)
@@ -113,7 +113,7 @@ GEM
     bindex (0.7.0)
     builder (3.2.3)
     byebug (11.0.1)
-    capybara (3.22.0)
+    capybara (3.23.0)
       addressable
       mini_mime (>= 0.1.3)
       nokogiri (~> 1.8)
