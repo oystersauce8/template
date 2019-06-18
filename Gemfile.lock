@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: bc4cff76ce268f151e9c3790edfa1fe31de43d3e
+  revision: 253f9009521f748f7cb8244be95507690d090077
   branch: 6-0-stable
   specs:
     actioncable (6.0.0.rc1)
@@ -153,7 +153,7 @@ GEM
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
     ice_nine (0.11.2)
-    jaro_winkler (1.5.2)
+    jaro_winkler (1.5.3)
     jbuilder (2.9.1)
       activesupport (>= 4.2.0)
     json (2.2.0)
