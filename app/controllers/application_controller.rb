@@ -1,3 +1,4 @@
+# :nocov:
 class ApplicationController < ActionController::Base
   include Pundit
   before_action :authenticate_user_from_token!
@@ -11,3 +12,5 @@ private
     end
   end
 end
+# :nocov:
+
