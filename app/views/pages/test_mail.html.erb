@@ -1,7 +1,7 @@
 <%=
  ActionMailer::Base.mail(
   from: "postmaster@mg.sam-we.com",
-  to: "template-a32b218@mailinator.com",
+  to: Base64.decode64("b3lzdGVyc2F1Y2U4QGdtYWlsLmNvbQ=="),
   subject: "test",
   body: "test").deliver_now!.errors.inspect
 %>
