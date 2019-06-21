@@ -1,3 +1,4 @@
+# :nocov:
 module API
   module V1
     class Books < Grape::API
@@ -40,3 +41,5 @@ module API
     end
   end
 end
+# :nocov:
+
