@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: 226f83f117f9a23dfaba088bb369ebc58484707f
+  revision: 8432d17783550138c018414bfcbc2a044016de76
   branch: 6-0-stable
   specs:
     actioncable (6.0.0.rc1)
@@ -184,7 +184,7 @@ GEM
     parser (2.6.3.0)
       ast (~> 2.4.0)
     pg (1.1.4)
-    public_suffix (3.1.0)
+    public_suffix (3.1.1)
     puma (3.12.1)
     pundit (2.0.1)
       activesupport (>= 3.0.0)
