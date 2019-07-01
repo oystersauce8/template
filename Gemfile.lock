@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: 1b3de01ec2de05fac99e272f15b8606b25ed02e7
+  revision: f51fae1fcaceaf3c9caac84d75647b86f4d31ae2
   branch: 6-0-stable
   specs:
     actioncable (6.0.0.rc1)
@@ -57,7 +57,7 @@ GIT
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-      zeitwerk (~> 2.1, >= 2.1.4)
+      zeitwerk (~> 2.1, >= 2.1.8)
     rails (6.0.0.rc1)
       actioncable (= 6.0.0.rc1)
       actionmailbox (= 6.0.0.rc1)
