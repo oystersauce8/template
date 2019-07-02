@@ -92,7 +92,7 @@ GIT
 
 GIT
   remote: https://github.com/rails/webpacker.git
-  revision: cdafb9565ec28909070271e13ad94c5e100bf2be
+  revision: 5d5b3b867d35b376f3fa2af7c9cee3bfdf6f0f7c
   specs:
     webpacker (4.0.7)
       activesupport (>= 4.2)
@@ -233,7 +233,7 @@ GEM
     selenium-webdriver (3.142.3)
       childprocess (>= 0.5, < 2.0)
       rubyzip (~> 1.2, >= 1.2.2)
-    simplecov (0.16.1)
+    simplecov (0.17.0)
       docile (~> 1.1)
       json (>= 1.8, < 3)
       simplecov-html (~> 0.10.0)
