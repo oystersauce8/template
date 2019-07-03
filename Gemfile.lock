@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: f51fae1fcaceaf3c9caac84d75647b86f4d31ae2
+  revision: a23128ad3e76961e0785f82e88eb9607753692a9
   branch: 6-0-stable
   specs:
     actioncable (6.0.0.rc1)
@@ -261,7 +261,7 @@ GEM
       equalizer (~> 0.0, >= 0.0.9)
     warden (1.2.8)
       rack (>= 2.0.6)
-    webdrivers (4.0.1)
+    webdrivers (4.1.0)
       nokogiri (~> 1.6)
       rubyzip (~> 1.0)
       selenium-webdriver (>= 3.0, < 4.0)
