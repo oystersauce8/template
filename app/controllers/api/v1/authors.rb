@@ -1,3 +1,4 @@
+# :nocov:
 module API
   module V1
     class Authors < Grape::API
@@ -18,3 +19,5 @@ module API
     end
   end
 end
+# :nocov:
+
