@@ -1,4 +1,5 @@
 class PagesController < ApplicationController
+  include Watermelon::Example
   def test_bootstrap
   end
 
@@ -10,6 +11,7 @@ class PagesController < ApplicationController
   end
 
   def test_lib
+    render plain: example1
   end
 
   def test_mail
