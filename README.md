@@ -1,17 +1,18 @@
 
 - **Authenticate** users with devise  :tada:
-- **TODO** list more features
+- **TODO** list features
 
 
-### Starting a local development instance
+### Getting started
 ```
 yarn install
 bundle install
-heroku local:run --env .env.dev rails db:setup
+heroku local:run --env .env.dev bundle exec rails db:setup
+# add a /etc/hosts entry pointing template-a32b218-dev.herokuapp.com to 127.0.0.1
 heroku local -f Procfile.dev -e .env.dev
 ```
 
-## Keeping up with the rails master branch
+### Keeping up with the latest rails version
 ```
 # https://help.github.com/en/articles/syncing-a-fork
 git remote remove upstream
@@ -20,11 +21,6 @@ git fetch upstream
 git rebase upstream master # Or git merge upstream/master
 ```
 
-### How this application was created
-```
-git clone https://github.com/oystersauce8/template-a32b218.git
-mv template-a32b218 cool-app-name
-cd cool-app-name
-perl -pi.bak -e 's/template-a32b218/cool-app-name/' .env.dev
-```
-
+<br>
+<br>
+Refer to the [parent repository](https://github.com/oystersauce8/create-rails-app) to find out how this application was generated.

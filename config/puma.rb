@@ -34,8 +34,8 @@ environment ENV.fetch("RAILS_ENV") { "development" }
 # Allow puma to be restarted by `rails restart` command.
 if Rails.env.development?
 
-  localhost_key = "#{Dir.pwd}/#{File.join('config', 'certs', 'localhost.key')}"
-  localhost_cert = "#{Dir.pwd}/#{File.join('config', 'certs', 'localhost.crt')}"
+  localhost_key = "#{Dir.pwd}/#{File.join('tmp', 'localhost.key')}"
+  localhost_cert = "#{Dir.pwd}/#{File.join('tmp', 'localhost.crt')}"
 
   unless File.exist?(localhost_key)
     def generate_root_cert(root_key)
