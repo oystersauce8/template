@@ -4,13 +4,13 @@
 - Easily merge in new rails versions :tada:
 - Config **vars** using [heroku local](https://devcenter.heroku.com/articles/heroku-local)
 - A **domain** and **ssl** for dev env - thanks to [gist](https://gist.github.com/tadast/9932075) :green_heart:
-- Linting with **rubocop** :tophat:
+- Linting with **rubocop**
 - **Google Analytics** setup
 - Latest **bootstrap**
 - Icon fonts
 - A controller for static pages
 - Setup for outgoing mail
-- **React.js** and webpacker
+- **React.js** and webpacker :sunglasses:
 - Api ready and token authentication
 - Example tests ( system tests, **unit tests**, integration tests) :thumbsup:
 - **Minitest** installed :heavy_check_mark:
@@ -43,6 +43,21 @@ git remote add upstream https://github.com/oystersauce8/template-a32b218.git
 git fetch upstream
 git rebase upstream master # Or git merge upstream/master
 ```
+
+### Demo Pages
+
+- https://template-a32b218.herokuapp.com/pages/test_bootstrap
+- https://template-a32b218.herokuapp.com/pages/test_pundit
+- https://template-a32b218.herokuapp.com/pages/test_iconfonts
+- https://template-a32b218.herokuapp.com/pages/test_lib
+- https://template-a32b218.herokuapp.com/pages/test_mail
+- https://template-a32b218.herokuapp.com/pages/test_react
+- https://template-a32b218.herokuapp.com/pages/test_authentication_1
+- https://template-a32b218.herokuapp.com/pages/test_authentication_2
+- https://template-a32b218.herokuapp.com/pages/test_api_1
+- https://template-a32b218.herokuapp.com/pages/test_api_2
+- https://template-a32b218.herokuapp.com/pages/test_api_3
+- https://template-a32b218.herokuapp.com/pages/test_api_4
 
 <br>
 <br>
