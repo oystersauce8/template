@@ -1,21 +1,20 @@
 
-- **Authenticate** users with devise  :tada:
+- **Authenticate** users with devise
 - **Authorize** pages with [pundit](https://github.com/varvet/pundit)
-- Easily merge in new rails **versions** :gem:
-- Config vars using [heroku local](https://devcenter.heroku.com/articles/heroku-local)
-- A domain and **ssl** for dev env - thanks to [gist](https://gist.github.com/tadast/9932075)
-- Linting with rubocop :tophat:
-- Google Analytics setup
-- Latest bootstrap
+- Easily merge in new rails versions :tada:
+- Config **vars** using [heroku local](https://devcenter.heroku.com/articles/heroku-local)
+- A **domain** and **ssl** for dev env - thanks to [gist](https://gist.github.com/tadast/9932075) :green_heart:
+- Linting with **rubocop** :tophat:
+- **Google Analytics** setup
+- Latest **bootstrap**
 - Icon fonts
-- A controller for static pages :twisted_rightwards_arrows:
+- A controller for static pages
 - Setup for outgoing mail
-- React.js and webpacker
+- **React.js** and webpacker
 - Api ready and token authentication
-- Example tests ( system tests, unit tests, integration tests)
-- Minitest installed
-- Coverage metrics using simplecov
-
+- Example tests ( system tests, **unit tests**, integration tests) :thumbsup:
+- **Minitest** installed :heavy_check_mark:
+- Coverage metrics using **simplecov**
 
 ### Getting started
 ```
