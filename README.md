@@ -26,25 +26,29 @@ heroku local -f Procfile.dev -e .env.dev
 # Verify by visiting a page: https://cool-app-name-dev.herokuapp.com:5000/pages/test_bootstrap
 ```
 
-### Prereqs
+### Prerequisites
 ```
-ruby
-node
-yarn
+ruby (version ?)
+node (version ?)
+yarn (version ?)
 brew tap heroku/brew && brew install heroku
 ```
 
 
 ### Keeping up with the latest rails version
+This application is a fork of [template-a32b218](https://github.com/oystersauce8/template-a32b218),
+which happens to be generated using [create-rails-app](https://github.com/oystersauce8/create-rails-app)
+It's a good idea to sync up your rails application with whatever the latest stable version is out there.
+Since the [parent application](https://github.com/oystersauce8/template-a32b218) is updated nightly,
+we can acquire it's changes once a week like this:
 ```
-# https://help.github.com/en/articles/syncing-a-fork
-git remote remove upstream
 git remote add upstream https://github.com/oystersauce8/template-a32b218.git
 git fetch upstream
-git rebase upstream master # Or git merge upstream/master
+#git rebase upstream master or
+git merge upstream/master or
 ```
 
-### Demo Pages
+### Some demo Pages
 
 - https://template-a32b218.herokuapp.com/pages/test_bootstrap
 - https://template-a32b218.herokuapp.com/pages/test_pundit
