@@ -15,6 +15,7 @@
 - Example tests ( system tests, **unit tests**, integration tests) :thumbsup:
 - **Minitest** installed :heavy_check_mark:
 - Coverage metrics using **simplecov**
+- [Rack::Timeout](https://github.com/heroku/rack-timeout) for performance
 
 ### Getting started
 ```
