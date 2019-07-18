@@ -26,13 +26,7 @@ Rails.application.configure do
     config.action_controller.perform_caching = false
 
     config.cache_store = :null_store
-  
-
-  config.hosts << "#{ENV["MY_APP_NAME"]}-dev.herokuapp.com"
-
-
-  config.after_initialize do Bullet.enable = true; Bullet.rails_logger = true; Bullet.add_footer = true; end
-end
+  end
 
   # Store uploaded files on the local file system (see config/storage.yml for options).
   config.active_storage.service = :local
@@ -65,10 +59,4 @@ end
   # Use an evented file watcher to asynchronously detect changes in source code,
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
-
-
-  config.hosts << "#{ENV["MY_APP_NAME"]}-dev.herokuapp.com"
-
-
-  config.after_initialize do Bullet.enable = true; Bullet.rails_logger = true; Bullet.add_footer = true; end
 end
