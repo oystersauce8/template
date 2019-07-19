@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   get 'pages/test_api_2'
   get 'pages/test_api_3'
   get 'pages/test_api_4'
-  get 'pages/log_error--no-stylesheets'
+  post 'pages/log_error'
   devise_for :users
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
