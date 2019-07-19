@@ -1,3 +1,4 @@
+# :nocov:
 class AuthorPolicy < ApplicationPolicy
 
   class Scope < Scope
@@ -6,3 +7,5 @@ class AuthorPolicy < ApplicationPolicy
     end
   end
 end
+# :nocov:
+
