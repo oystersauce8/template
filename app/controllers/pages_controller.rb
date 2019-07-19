@@ -40,6 +40,9 @@ class PagesController < ApplicationController
 
   def test_api_4
   end
+
+  def log_error--no-stylesheets
+  end
 end
 # :nocov:
 

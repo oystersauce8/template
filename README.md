@@ -16,6 +16,7 @@
 - **Minitest** installed :heavy_check_mark:
 - Coverage metrics using **simplecov**
 - [Rack::Timeout](https://github.com/heroku/rack-timeout) and [bullet](https://github.com/flyerhzm/bullet) for early warnings :fire:
+- Frontend js errors sent to heroku logs
 
 ### Getting started
 ```
