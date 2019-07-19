@@ -1,4 +1,4 @@
-### A rails app based on [github.com/rails/rails 6-0-stable aabbccd](https://github.com/rails/rails/tree/aabbccd)
+### A rails app based on [github.com/rails/rails](https://github.com/rails/rails) 6-0-stable@aabbccd
 
 - **Authenticate** users with devise
 - **Authorize** pages with [pundit](https://github.com/varvet/pundit)
