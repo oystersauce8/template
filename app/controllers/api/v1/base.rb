@@ -1,3 +1,4 @@
+# :nocov:
 module API
   module V1
     class Base < Grape::API
@@ -6,3 +7,5 @@ module API
     end
   end
 end
+# :nocov:
+
