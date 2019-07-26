@@ -28,3 +28,28 @@ document.addEventListener('DOMContentLoaded', () => {
     render(<MyEditor/>, container);
   }
 })
+// https://stackoverflow.com/a/11257495
+window.onerror = function(errorMessage, errorUrl, errorLine) {
+    jQuery.ajax({
+        type: 'POST',
+        url: '/pages/log_error',
+        data: {
+            msg: errorMessage,
+            url: errorUrl,
+            line: errorLine
+        },
+        success: function() {
+            if (console && console.log) {
+                console.log('JS error report successful.');
+            }
+        },
+        error: function() {
+            if (console && console.error) {
+                console.error('JS error report submission failed!');
+            }
+        }
+    });
+
+    // Dont prevent firing of default error handler.
+    return false;
+};
