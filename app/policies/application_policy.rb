@@ -1,3 +1,4 @@
+# :nocov:
 class ApplicationPolicy
   attr_reader :user, :record
 
@@ -47,3 +48,5 @@ class ApplicationPolicy
     end
   end
 end
+# :nocov:
+
