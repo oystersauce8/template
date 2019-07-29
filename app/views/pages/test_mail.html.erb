@@ -1,2 +1,7 @@
-<h1>Pages#test_mail</h1>
-<p>Find me in app/views/pages/test_mail.html.erb</p>
+<%=
+ ActionMailer::Base.mail(
+  from: "postmaster@mg.sam-we.com",
+  to: Base64.decode64("b3lzdGVyc2F1Y2U4QGdtYWlsLmNvbQ=="),
+  subject: "test",
+  body: "test").deliver_now!.errors.inspect
+%>
