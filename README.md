@@ -1,4 +1,4 @@
-### A rails app based on 6-0-stable@c701e0b8d79d at [github.com/rails/rails](https://github.com/rails/rails) 
+### A rails app based on 6-0-stable@e8b754a16e84 at [github.com/rails/rails](https://github.com/rails/rails) 
 
 - **Authenticate** users with devise
 - **Authorize** pages with [pundit](https://github.com/varvet/pundit)

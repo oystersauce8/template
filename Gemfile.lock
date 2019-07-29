@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: c701e0b8d79d66a6cfcb76851a304bea386bd5ee
+  revision: e8b754a16e841a6d74d26d55dfb0187b744fb562
   branch: 6-0-stable
   specs:
     actioncable (6.0.0.rc2)
@@ -116,7 +116,7 @@ GEM
       activesupport (>= 3.0.0)
       uniform_notifier (~> 1.11)
     byebug (11.0.1)
-    capybara (3.26.0)
+    capybara (3.27.0)
       addressable
       mini_mime (>= 0.1.3)
       nokogiri (~> 1.8)
