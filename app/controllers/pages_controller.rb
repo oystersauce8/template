@@ -1,3 +1,4 @@
+# :nocov:
 class PagesController < ApplicationController
   before_action :authenticate_user!, only: [ :test_authentication_1, :test_authentication_2 ]
 
@@ -43,3 +44,5 @@ class PagesController < ApplicationController
   def log_error
   end
 end
+# :nocov:
+
