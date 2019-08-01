@@ -52,3 +52,4 @@ gem 'devise'
 gem "pundit"
 gem "font-awesome-rails"
 gem 'grape'
+gem 'rack-timeout', require:'rack/timeout/base'
