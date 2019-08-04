@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  mount API::Base => "/api"
   get 'pages/test_bootstrap'
   get 'pages/test_pundit'
   get 'pages/test_iconfonts'
