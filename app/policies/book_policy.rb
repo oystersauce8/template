@@ -1,3 +1,4 @@
+# :nocov:
 class BookPolicy < ApplicationPolicy
 
   class Scope < Scope
@@ -10,3 +11,5 @@ class BookPolicy < ApplicationPolicy
     end
   end
 end
+# :nocov:
+
