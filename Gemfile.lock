@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: a6a2dd98e571d8386a771b4c9ee0997328fa6f0b
+  revision: c5b68fbab9020334195537fc1c23f34d4c57a99e
   branch: 6-0-stable
   specs:
     actioncable (6.0.0.rc2)
@@ -38,7 +38,7 @@ GIT
       builder (~> 3.1)
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
-      rails-html-sanitizer (~> 1.0, >= 1.0.3)
+      rails-html-sanitizer (~> 1.1, >= 1.1.0)
     activejob (6.0.0.rc2)
       activesupport (= 6.0.0.rc2)
       globalid (>= 0.3.6)
@@ -92,7 +92,7 @@ GIT
 
 GIT
   remote: https://github.com/rails/webpacker.git
-  revision: d410d0123e92c266cb6936a425446ba733b48fca
+  revision: 35924e55938a34ea6033fe4e62e25badd7e88248
   specs:
     webpacker (4.0.7)
       activesupport (>= 4.2)
