@@ -92,7 +92,7 @@ GIT
 
 GIT
   remote: https://github.com/rails/webpacker.git
-  revision: 35924e55938a34ea6033fe4e62e25badd7e88248
+  revision: 336077d2803bcd600731b4ab6a9411b488c1fc03
   specs:
     webpacker (4.0.7)
       activesupport (>= 4.2)
@@ -180,7 +180,7 @@ GEM
     mustermann-grape (1.0.0)
       mustermann (~> 1.0.0)
     nio4r (2.4.0)
-    nokogiri (1.10.3)
+    nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
     parallel (1.17.0)
