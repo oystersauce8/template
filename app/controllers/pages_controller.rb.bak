@@ -1,5 +1,4 @@
 class PagesController < ApplicationController
-  include Watermelon::Example
   before_action :authenticate_user!, only: [ :verify_devise, :verify_tokenauth ]
 
   def verify_bootstrap_4

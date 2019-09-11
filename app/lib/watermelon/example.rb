@@ -1,4 +1,3 @@
-# :nocov:
 # frozen_string_literal: true
 
 module Watermelon
@@ -17,5 +16,3 @@ module Watermelon
     end
   end
 end
-# :nocov:
-

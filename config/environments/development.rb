@@ -60,7 +60,7 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
-  config.hosts << "#{ENV["MY_APP_NAME"]}-dev.herokuapp.com"
+  config.hosts << "template-a32b218-dev.herokuapp.com"
 
 
   config.after_initialize do Bullet.enable = true; Bullet.rails_logger = true; Bullet.add_footer = true; end

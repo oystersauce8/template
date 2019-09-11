@@ -1,6 +1,5 @@
-# :nocov:
 class PagePolicy < ApplicationPolicy
-  def test_pundit?
+  def verify_pundit?
     nil
   end
 
@@ -10,5 +9,3 @@ class PagePolicy < ApplicationPolicy
     end
   end
 end
-# :nocov:
-

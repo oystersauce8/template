@@ -35,11 +35,11 @@ pidfile ENV.fetch("PIDFILE") { "tmp/pids/server.pid" }
 # preload_app!
 
 # Allow puma to be restarted by `rails restart` command.
+plugin :tmp_restart
 if Rails.env.development?
-
-  localhost_key = "#{Dir.pwd}/#{File.join('tmp', 'localhost.key')}"
-  localhost_cert = "#{Dir.pwd}/#{File.join('tmp', 'localhost.crt')}"
-
+  puts "Creating certificates for ssl in development environment"
+  localhost_key =  './tmp/localhost.key'
+  localhost_cert = './tmp/localhost.crt'
   unless File.exist?(localhost_key)
     def generate_root_cert(root_key)
       root_ca = OpenSSL::X509::Certificate.new
@@ -53,20 +53,16 @@ if Rails.env.development?
       root_ca.sign(root_key, OpenSSL::Digest::SHA256.new)
       root_ca
     end
-
     root_key = OpenSSL::PKey::RSA.new(2048)
     file = File.new( localhost_key, "wb")
     file.write(root_key)
     file.close
-
     root_cert = generate_root_cert(root_key)
     file = File.new( localhost_cert, "wb")
     file.write(root_cert)
     file.close
   end
 
-  ssl_bind '0.0.0.0', ENV.fetch("PORT") { 3000 }, {
-    key: localhost_key,
-    cert: localhost_cert
-  }
+  # https://github.com/puma/puma/issues/1028
+  ssl_bind '0.0.0.0', 3000, { key: localhost_key, cert: localhost_cert }
 end

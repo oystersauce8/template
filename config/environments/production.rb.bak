@@ -86,7 +86,7 @@ Rails.application.configure do
     config.logger    = ActiveSupport::TaggedLogging.new(logger)
   
 
-  config.x.domain = "https://#{ENV["MY_APP_NAME"]}.herokuapp.com"
+  config.x.domain = "https://template-a32b218.herokuapp.com"
 end
 
   # Do not dump schema after migrations.
@@ -114,5 +114,5 @@ end
   # config.active_record.database_resolver_context = ActiveRecord::Middleware::DatabaseSelector::Resolver::Session
 
 
-  config.x.domain = "https://#{ENV["MY_APP_NAME"]}.herokuapp.com"
+  config.x.domain = "https://template-a32b218.herokuapp.com"
 end

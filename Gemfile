@@ -1,16 +1,16 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.2'
+ruby '2.6.3'
 
-gem "rails", branch: "6-0-stable", github: "rails/rails"
+gem 'rails', path: "/home/travis/build/oystersauce8/create-rails-app/workspace/rails"
 
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5'
+gem 'sass-rails', '>= 6'
 # Use development version of Webpacker
 gem 'webpacker', github: "rails/webpacker"
 
@@ -51,7 +51,5 @@ gem 'rubocop', require: false
 gem 'devise'
 gem "pundit"
 gem "font-awesome-rails"
-gem 'grape'
-gem 'rack-timeout', require:'rack/timeout/base'
 gem 'bullet'
 gem 'simplecov', require: false, group: :test

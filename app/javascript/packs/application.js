@@ -15,10 +15,9 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
-
-import '../stylesheets/application'
 import './bootstrap_custom.js'
 
+import '../stylesheets/application'
 import React from 'react';
 import { render } from 'react-dom';
 import MyEditor from '../components/MyEditor';
@@ -28,6 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
     render(<MyEditor/>, container);
   }
 })
+
 // https://stackoverflow.com/a/11257495
 window.onerror = function(errorMessage, errorUrl, errorLine) {
     jQuery.ajax({
@@ -49,7 +49,6 @@ window.onerror = function(errorMessage, errorUrl, errorLine) {
             }
         }
     });
-
     // Dont prevent firing of default error handler.
     return false;
 };
