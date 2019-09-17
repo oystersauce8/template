@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: 2ec8752cf617118207ae3736e811235a523bbb59
-  ref: 2ec8752cf6
+  revision: 46cc85d5343844a812a570c2a0254f5ceda6b8b6
+  ref: 46cc85d534
   specs:
     actioncable (6.0.0)
       actionpack (= 6.0.0)
@@ -215,7 +215,7 @@ GEM
     selenium-webdriver (3.142.4)
       childprocess (>= 0.5, < 3.0)
       rubyzip (~> 1.2, >= 1.2.2)
-    simplecov (0.17.0)
+    simplecov (0.17.1)
       docile (~> 1.1)
       json (>= 1.8, < 3)
       simplecov-html (~> 0.10.0)
