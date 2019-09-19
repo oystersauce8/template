@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: 46cc85d5343844a812a570c2a0254f5ceda6b8b6
-  ref: 46cc85d534
+  revision: d7073d399b679cb55f2d878f199024f8f925dab2
+  ref: d7073d399b
   specs:
     actioncable (6.0.0)
       actionpack (= 6.0.0)
@@ -204,7 +204,7 @@ GEM
     rubyzip (1.2.4)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
-    sassc (2.2.0)
+    sassc (2.2.1)
       ffi (~> 1.9)
     sassc-rails (2.1.2)
       railties (>= 4.0.0)
@@ -230,7 +230,7 @@ GEM
     thor (0.20.3)
     thread_safe (0.3.6)
     tilt (2.0.9)
-    turbolinks (5.2.0)
+    turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
     tzinfo (1.2.5)
