@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: dedd1382a804f2ad02d22f0436b2966f0caafb9d
-  ref: dedd1382a8
+  revision: 2b93cafc90aabaee45d5d9a21ae4ad05f6d3efa4
+  ref: 2b93cafc90
   specs:
     actioncable (6.0.0)
       actionpack (= 6.0.0)
@@ -147,7 +147,7 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
-    loofah (2.2.3)
+    loofah (2.3.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.1)
@@ -158,7 +158,7 @@ GEM
     mimemagic (0.3.3)
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
-    minitest (5.12.1)
+    minitest (5.12.2)
     nio4r (2.5.2)
     nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)

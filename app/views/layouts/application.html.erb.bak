@@ -17,4 +17,4 @@
     <%= yield %>
   </body>
 </html>
-<!-- based on dedd1382a8 -->
+<!-- based on 2b93cafc90 -->
