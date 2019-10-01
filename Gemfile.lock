@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: 2b93cafc90aabaee45d5d9a21ae4ad05f6d3efa4
-  ref: 2b93cafc90
+  revision: 3a6c14d06b22ae14b523649708dae276fb49710d
+  ref: 3a6c14d06b
   specs:
     actioncable (6.0.0)
       actionpack (= 6.0.0)
@@ -192,7 +192,7 @@ GEM
     responders (3.0.0)
       actionpack (>= 5.0)
       railties (>= 5.0)
-    rubocop (0.74.0)
+    rubocop (0.75.0)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
       parser (>= 2.6)
@@ -212,9 +212,9 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
-    selenium-webdriver (3.142.4)
+    selenium-webdriver (3.142.5)
       childprocess (>= 0.5, < 3.0)
-      rubyzip (~> 1.2, >= 1.2.2)
+      rubyzip (>= 1.2.2)
     simplecov (0.17.1)
       docile (~> 1.1)
       json (>= 1.8, < 3)
