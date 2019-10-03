@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: dde8025eb6af382154a63e176852a062c5e3996e
-  ref: dde8025eb6
+  revision: 41326660859f0f69c0b6bd24ddb713d8925de8c0
+  ref: 4132666085
   specs:
     actioncable (6.0.0)
       actionpack (= 6.0.0)
@@ -164,7 +164,7 @@ GEM
       mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
     parallel (1.17.0)
-    parser (2.6.4.1)
+    parser (2.6.5.0)
       ast (~> 2.4.0)
     pg (1.1.4)
     public_suffix (4.0.1)
