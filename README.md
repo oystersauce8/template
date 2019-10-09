@@ -1,5 +1,5 @@
 
-A rails application based on [master@f4a04c3ca4](https://github.com/rails/rails/tree/aabbccd)
+A rails application based on [master@6150eb0477](https://github.com/rails/rails/tree/aabbccd)
 
 
 - **Authenticate** users with devise
