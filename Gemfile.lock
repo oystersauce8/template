@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: 94fe2430da93daf52f63dbc248dcbdc8e8de2c31
-  ref: 94fe2430da
+  revision: 240cd030c10263abfe274d66966a67abddb38ea5
+  ref: 240cd030c1
   specs:
     actioncable (6.0.0)
       actionpack (= 6.0.0)
@@ -191,7 +191,7 @@ GEM
     responders (3.0.0)
       actionpack (>= 5.0)
       railties (>= 5.0)
-    rubocop (0.75.0)
+    rubocop (0.75.1)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
       parser (>= 2.6)
