@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: faeb1696313b67c4ba4da9fc399a4f1a6a0d61c7
-  ref: faeb169631
+  revision: b3e5ea36cee8e6d99deea5da68b9f45818d0cfcc
+  ref: b3e5ea36ce
   specs:
     actioncable (6.0.0)
       actionpack (= 6.0.0)
@@ -159,7 +159,7 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.13.0)
     nio4r (2.5.2)
-    nokogiri (1.10.4)
+    nokogiri (1.10.5)
       mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
     parallel (1.18.0)
@@ -247,7 +247,7 @@ GEM
     websocket-extensions (0.1.4)
     xpath (3.2.0)
       nokogiri (~> 1.8)
-    zeitwerk (2.2.0)
+    zeitwerk (2.2.1)
 
 PLATFORMS
   ruby
