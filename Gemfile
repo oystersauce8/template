@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.3'
 
-gem 'rails', git: 'https://github.com/rails/rails.git', ref: '0f65f1500a'
+gem 'rails', git: 'https://github.com/rails/rails.git', ref: 'cc69a14e85'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
